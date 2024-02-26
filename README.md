@@ -3,6 +3,7 @@ About r-transformr-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-transformr-feedstock/blob/main/LICENSE.txt)
 
+
 About r-transformr
 ------------------
 
@@ -11,6 +12,7 @@ Home: https://github.com/thomasp85/transformr
 Package license: MIT
 
 Summary: In order to smoothly animate the transformation of polygons and paths, many aspects needs to be taken into account, such as differing number of control points, changing center of rotation, etc. The 'transformr' package provides an extensive framework for manipulating the shapes of polygons and paths and can be seen as the spatial brother to the 'tweenr' package.
+
 About r-transformr
 ------------------
 
@@ -153,7 +155,7 @@ available continuous integration services. Thanks to the awesome service provide
 [CircleCI](https://circleci.com/), [AppVeyor](https://www.appveyor.com/),
 [Drone](https://cloud.drone.io/welcome), and [TravisCI](https://travis-ci.com/)
 it is possible to build and upload installable packages to the
-[conda-forge](https://anaconda.org/conda-forge) [Anaconda-Cloud](https://anaconda.org/)
+[conda-forge](https://anaconda.org/conda-forge) [anaconda.org](https://anaconda.org/)
 channel for Linux, Windows and OSX respectively.
 
 To manage the continuous integration and simplify feedstock maintenance
