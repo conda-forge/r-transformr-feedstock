@@ -1,4 +1,4 @@
-{% set version = "0.1.4" %}
+{% set version = "0.1.5" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/transformr_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/transformr/transformr_{{ version }}.tar.gz
-  sha256: c193bc8217c2483933df91863892743f8b5fb03d309df7cd2b6c76e9b1661f40
+  sha256: bcbbaa30140d5f75306b800521d597391a8fe5b764a4f33416e9ee77794abe88
 
 build:
   merge_build_host: true  # [win]
-  number: 2
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
