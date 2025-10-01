@@ -31,6 +31,11 @@ requirements:
     - {{ posix }}coreutils         # [win]
     - {{ posix }}zip               # [win]
     - cross-r-base {{ r_base }}    # [build_platform != target_platform]
+    - r-rcpp >=0.12.15             # [build_platform != target_platform]
+    - r-lpsolve                    # [build_platform != target_platform]
+    - r-rlang                      # [build_platform != target_platform]
+    - r-sf                         # [build_platform != target_platform]
+    - r-tweenr                     # [build_platform != target_platform]
   host:
     - r-base
     - r-rcpp >=0.12.15
